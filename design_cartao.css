@@ -1,0 +1,41 @@
+.oferta {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  border-width: 10px;
+}
+
+.oferta_cabecalho {
+  background-color: #0b8f8f;
+  height: 25%;
+  width: 100%;
+  color: #ffffff;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 16px;
+}
+
+.oferta_texto {
+  background-color: #ffffff;
+  color: #838f8f;
+  height: 55%;
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 16px;
+}
+
+.oferta_botao {
+  height: 20%;
+  background-color: aqua;
+  position: relative;
+}
+
+.oferta_botao_btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
