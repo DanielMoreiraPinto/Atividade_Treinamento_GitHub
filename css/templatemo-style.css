@@ -13,6 +13,9 @@ body {
     background-color: #f4f4f4;
 }
 
+div#cont1 {
+    text-align: center;
+}
 p, q { line-height: 1.8; }
 h2 { font-size: 1.8rem; }
 
@@ -390,3 +393,4 @@ select:focus {
         padding: 30px 25px;
     }
 }
+
