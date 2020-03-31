@@ -2,6 +2,33 @@ nav{
     position: fixed;
 }
 
+footer {
+	background-color:#e8e6df !important;
+	
+	
+}
+footer .footer-link {
+	color: #78756e;
+}
+footer: hover {
+	color:blue ;
+}
+footer ul {
+	list-style-type: none;
+	padding-left: 0;
+
+}	
+footer ul li{
+	margin-right: 30px;
+	
+
+footer .footer-copyright{
+  padding-left: 5px;
+}
+
+.footer-copyright a{
+	color:white !important;
+}
 
 #price {
     background-color: black;
