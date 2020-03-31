@@ -2,47 +2,13 @@ nav{
     position: fixed;
 }
 
-footer {
-	background-color:#e8e6df !important;
-	
-	
-}
-footer .footer-link {
-	color: #78756e;
-}
-footer: hover {
-	color:blue ;
-}
-footer ul {
-	list-style-type: none;
-	padding-left: 0;
-
-}	
-footer ul li{
-	margin-right: 30px;
-	
-
-footer .footer-copyright{
-  padding-left: 5px;
-}
-
-.footer-copyright a{
-	color:white !important;
-}
 
 #price {
-    background-color: black;
     height: 100%;
     width: 100%;
     border-width: 10px;
 }
 
-
-#price2{
-    height: 100%;
-    width: 100%;
-    border-width: 10px;
-}
 
 .oferta_cabecalho {
     background-color: #0b8f8f;
@@ -53,6 +19,8 @@ footer .footer-copyright{
     display: inline-block;
     vertical-align: middle;
     font-size: 16px;
+    margin-bottom: 25px;
+    padding-top: 20px;
 }
 
 .oferta_cabecalho2 {
@@ -66,7 +34,14 @@ footer .footer-copyright{
     font-size: 16px;
     border-top-style: solid;
     border-top-color: #0B8F8F;
+    border-top-width: 75px;
     margin-bottom: 173px;
+}
+
+.oferta_texto2{
+    text-align: left;
+    padding-left: 65px;
+
 }
 
 .oferta_texto {
@@ -94,7 +69,8 @@ footer .footer-copyright{
 }
 
 #boxtext{
-    
+    width: 360px;
+    text-align: center;
     padding-bottom: 18px;
     border-style: solid!important;
     border: 2px;
