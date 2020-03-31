@@ -2,14 +2,22 @@ nav{
     position: fixed;
 }
 
-.oferta {
+
+#price {
     background-color: black;
     height: 100%;
     width: 100%;
     border-width: 10px;
-  }
-  
-  .oferta_cabecalho {
+}
+
+
+#price2{
+    height: 100%;
+    width: 100%;
+    border-width: 10px;
+}
+
+.oferta_cabecalho {
     background-color: #0b8f8f;
     height: 25%;
     width: 100%;
@@ -18,9 +26,23 @@ nav{
     display: inline-block;
     vertical-align: middle;
     font-size: 16px;
-  }
-  
-  .oferta_texto {
+}
+
+.oferta_cabecalho2 {
+    background-color: #0b8f8f;
+    height: 25%;
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    border-top-style: solid;
+    border-top-color: #0B8F8F;
+    margin-bottom: 173px;
+}
+
+.oferta_texto {
     background-color: #ffffff;
     color: #838f8f;
     height: 55%;
@@ -29,17 +51,25 @@ nav{
     display: inline-block;
     vertical-align: middle;
     font-size: 16px;
-  }
-  
-  .oferta_botao {
+}
+
+.oferta_botao {
     height: 20%;
     background-color: aqua;
     position: relative;
-  }
-  
-  .oferta_botao_btn {
+}
+
+.oferta_botao_btn {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%)
-  }
+}
+
+#boxtext{
+    
+    padding-bottom: 18px;
+    border-style: solid!important;
+    border: 2px;
+    border-color: #0B8F8F;
+}
